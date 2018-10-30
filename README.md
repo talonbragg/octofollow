@@ -18,7 +18,7 @@
  - [x] User input to trigger GET request
  - [x] Static display of follower count
  - [ ] Polling loop
-  - [ ] Polling loop running on GET request
-  - [ ] Polling loop running and changing innerHTML
+ - [ ] Polling loop running on GET request
+ - [ ] Polling loop running and changing innerHTML
  - [ ] CSS Styling
  - [ ] Animations with JS
