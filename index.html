@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Octofollow</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="A live follower feed for users on GitHub."/>
+    <meta name="keywords" content="octocat, octofollow, follow, live, follower, feed"/>
+    <meta name="author" content="Talon Bragg" />
+    <meta name="copyright" content="Talon Bragg" />
+    <meta name="robots" content="follow"/>
+    <meta http-equiv="cache-control" content="no-cache"/>
   </head>
   <body>
     <h4>Type in the username:</h4>
     <input type="text" id="username" placeholder="username">
     <button id="submit" onclick="openUser();">Submit</button>
+    <div>Folowers for <div id="usernameFill"></div>:<div id="followers"></div></div>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>
