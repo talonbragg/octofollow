@@ -1,7 +1,7 @@
 # Octofollow
 ## Live Follower Feed for Users on GitHub
 
-**Base concept of application:**
+**Basic concept of application:**
 
  - Uses the GitHub API
  - Uses polling to get a live feed on changes to the API

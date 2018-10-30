@@ -1,7 +1,5 @@
-
 function openUser() {
   var usernameInput = document.getElementById('username');
-  // var user = usernameInput.value;
   function dumpResponse() {
     console.log(request);
     if(request.readyState === 4) {
@@ -13,11 +11,11 @@ function openUser() {
       console.log(arguments, request);
     }
   }
-  var user = "talonbragg";
+  var user = usernameInput.value;
   var request = new XMLHttpRequest();
   request.onreadystatechange = dumpResponse;
-  request.open('GET', 'https://api.github.com/users/talonbragg');
+  request.open('GET', 'https://api.github.com/users/' + user);
   request.send()
 }
 
-openUser();
+// openUser();
